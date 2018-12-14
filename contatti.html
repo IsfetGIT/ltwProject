@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contatti</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+  </head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <h class="navbar-brand">Contatti</h>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"> </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="schedeVideo.html.html">Schede Video</a>
+				<a class="dropdown-item" href="ram.html">Memorie</a>
+				<a class="dropdown-item" href="hd.html">HD e SSD</a>
+                <a class="dropdown-item" href="case.html">Case</a>
+				<a class="dropdown-item" href="psu.html">Alimentatori</a>
+			  </div>
+            </li>
+            <li class="nav-item"> </li>
+          </ul>
+		</div>
+      </div>
+    </nav>
+	<hr>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container"> 
+		<form>
+			<table border="0">
+				<tr>
+					<td align="center"><b>Nome</b>
+					<td><input type="text" id="nome" maxlength="20" size="30" placeholder="inserisci nome">
+					<td align="center"><b>Cognome</b>
+					<td><input type="text" id="cognome" maxlength="20" size="30" placeholder="inserisci cognome">
+				<tr>
+					<td align="center"><b>EMail</b>
+					<td><input type="text" id="mail" maxlenght="20" size="30" placeholder="Inserisci mail">
+					<td>
+					<td>
+				<tr>
+					<td align="center"><b>N</b>
+					<td><input type="text" id="numero" maxlength="20" size="30" placeholder="inserisci numero ordine">
+					<td align="center"><b>Problema</b>
+					<td><select size="1" cols="6" id="select">
+						<option selected value="nessuna">
+						<option value="Spedizione">Spedizione
+						<option value="Prodotto danneggiato">Prodotto danneggiato
+						<option value="Richiesta reso">Richiesta reso
+						<option value="Consegnato in ritardo">Cosegnato in ritardo
+						<option value="Prodotto errato">Prodotto errato
+						<option value="Richiesta assistenza">Richiesta assistenza
+						</select>	
+				<tr>
+					<td align="center"><b>Descrizione</b>
+					<td><textarea id="testo" rows="6" cols="40"></textarea>
+					<td>
+					<td> <a href="#" class="btn btn-primary">Invia Richiesta</a>
+			</table>
+		</form>	
+	</div>
+</body>
+</html>
